@@ -88,4 +88,34 @@
     }
   }
   
+  /*BARRA LATERAL*/
+
+  .barra-lateral__navegacao{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+
+
+  }
+
+  .barra-lateral__navegacao-inicio{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0.5em 0;
+    align-items: center;
+    justify-content: start;
+  }
   
+  .barra-lateral-navegacao-icones-primeira-parte{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .barra-lateral-navegacao-icones-primeira-parte-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }

@@ -269,3 +269,48 @@ iframe{
     }
 
 }
+
+.cabecalho__pesquisar__item{
+    position: relative;
+    left: 12%;
+}
+
+.cabecalho__icones__item{
+    position: relative;
+    left: 18%
+}
+
+/* Barra Lateral */
+
+.barra-lateral__navegacao{
+    position: relative;
+    top: 150%;
+    right: 94.5%;
+
+}
+
+
+.barra-lateral-navegacao-icones{
+    position: relative;
+    top: 100%;
+    right: 72.8%;
+    margin-top: 3em;
+}
+
+.barra-lateral-navegacao-texto{
+    position: relative;
+    top: 100%;
+    right: 77.6%;
+    margin-top: 3em;
+    text-align: start;
+}
+
+.barra-lateral-barra-divisao{
+    position: relative;
+    top: 230%;
+    right: 89.5%;
+    height: 1px;
+    width: 200px;
+    background: var(--azul-profundo);
+
+}
