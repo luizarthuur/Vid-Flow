@@ -119,3 +119,15 @@
     flex-direction: column;
     gap: 18px;
   }
+
+  .barra-lateral-navegacao-icones-segunda-parte{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .barra-lateral-navegacao-icones-segunda-parte-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }

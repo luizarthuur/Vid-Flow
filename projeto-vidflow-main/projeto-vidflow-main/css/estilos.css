@@ -291,26 +291,57 @@ iframe{
 
 
 .barra-lateral-navegacao-icones{
-    position: relative;
-    top: 100%;
-    right: 72.8%;
+    position: absolute;
+    top: 65%;
+    right: 97.2%;
     margin-top: 3em;
 }
 
 .barra-lateral-navegacao-texto{
-    position: relative;
-    top: 100%;
-    right: 77.6%;
+    position: absolute;
+    top: 69.5%;
+    right: 92.8%;
     margin-top: 3em;
     text-align: start;
 }
 
 .barra-lateral-barra-divisao{
-    position: relative;
-    top: 230%;
-    right: 89.5%;
+    position: absolute;
+    top: 290%;
+    right: 87.8%;
     height: 1px;
-    width: 200px;
+    width: 210px;
     background: var(--azul-profundo);
 
+}
+
+.barra-lateral-navegacao-icones-2{
+    position: absolute;
+    top: 270%;
+    right: 97.2%;
+    margin-top: 3em;
+}
+
+.barra-lateral-navegacao-texto-2{
+    position: absolute;
+    top: 272%;
+    right: 92.8%;
+    margin-top: 3em;
+    text-align: start;
+}
+
+.barra-lateral-barra-divisao-2{
+    position: absolute;
+    top: 500%;
+    right: 87.8%;
+    height: 1px;
+    width: 210px;
+    background: var(--azul-profundo);
+}
+
+.barra-lateral-navegacao-icones-3{
+    position: absolute;
+    top: 478%;
+    right: 97.2%;
+    margin-top: 3em;
 }
