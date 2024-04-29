@@ -19,7 +19,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: auto;
+    overflow: visible;
     font-size: 14px;
     color: var(--cinza-escuro);                                                            
     box-sizing: border-box;
@@ -277,7 +277,6 @@ iframe{
 
 .cabecalho__icones__item{
     position: relative;
-    left: 18%
 }
 
 /* Barra Lateral */
@@ -300,7 +299,7 @@ iframe{
 .barra-lateral-navegacao-texto{
     position: absolute;
     top: 69.5%;
-    right: 92.8%;
+    left: 4%;
     margin-top: 3em;
     text-align: start;
 }
@@ -325,7 +324,7 @@ iframe{
 .barra-lateral-navegacao-texto-2{
     position: absolute;
     top: 272%;
-    right: 92.8%;
+    left: 4%;
     margin-top: 3em;
     text-align: start;
 }
@@ -341,7 +340,58 @@ iframe{
 
 .barra-lateral-navegacao-icones-3{
     position: absolute;
-    top: 478%;
+    top: 525%;
     right: 97.2%;
     margin-top: 3em;
+}
+
+.barra-lateral-navegacao-texto-3{
+    position: absolute;
+    top: 532.5%;
+    left: 4%;
+    margin-top: 3em;
+    text-align: start;
+
+}
+
+.barra-lateral-navegacao-icones-3-subtitulo{
+    position: absolute;
+    top: 525%;
+    right: 93.9%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.barra-lateral-barra-divisao-3{
+    position: absolute;
+    top: 975%;
+    right: 87.8%;
+    height: 1px;
+    width: 210px;
+    background: var(--azul-profundo);
+}
+
+.barra-lateral-navegacao-icones-4-subtitulo{
+    position: absolute;
+    top: 1000%;
+    right: 91.9%;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.barra-lateral-navegacao-icones-4{
+    position: absolute;
+    top: 1000%;
+    right: 97.2%;
+    margin-top: 3em;
+}
+
+.barra-lateral-navegacao-texto-4{
+    position: absolute;
+    top: 1005%;
+    left: 4%;
+    margin-top: 3em;
+    text-align: start;
+
 }

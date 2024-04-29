@@ -131,3 +131,27 @@
     flex-direction: column;
     gap: 18px;
   }
+
+  .barra-lateral-navegacao-icones-terceira-parte{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .barra-lateral-navegacao-icones-terceira-parte-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .barra-lateral-navegacao-icones-quarta-parte{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .barra-lateral-navegacao-icones-quarta-parte-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
